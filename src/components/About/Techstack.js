@@ -17,7 +17,7 @@ import {
   SiAnsible,
   SiPostgresql,
 } from "react-icons/si";
-import { TbShield, TbLock, TbBug, TbDatabase } from "react-icons/tb";
+import { TbShield, TbLock, TbDatabase } from "react-icons/tb";
 
 function Techstack() {
   return (

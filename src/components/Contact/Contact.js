@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
 import Particle from "../Particle";
 import CryptoBackground from "../CryptoBackground";
 import { AiOutlineMail, AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
-import { BsPhone, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 function Contact() {
   const [formData, setFormData] = useState({
