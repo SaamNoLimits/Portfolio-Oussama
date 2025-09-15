@@ -21,33 +21,94 @@
 
 ## 🎯 **About Me**
 
-<img align="right" alt="Security Animation" width="400" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif">
+<div align="center">
 
-```python
-class CyberSecurityExpert:
-    def __init__(self):
-        self.name = "Oussama AHJLI"
-        self.role = "Cybersecurity & AI Specialist"
-        self.location = "Morocco 🇲🇦"
-        self.expertise = [
-            "🛡️ Threat Detection & Analysis",
-            "🤖 AI-Powered Security Solutions", 
-            "🔍 Malware Analysis & Reverse Engineering",
-            "🌐 Network Security & Penetration Testing",
-            "📊 Security Automation & SOAR",
-            "🏗️ DevSecOps & Infrastructure Security"
-        ]
-        
-    def current_focus(self):
-        return {
-            "🔬 Research": "AI/ML for Advanced Threat Detection",
-            "🚀 Building": "Automated Security Response Systems",
-            "📖 Learning": "Zero Trust Architecture & Cloud Security",
-            "🎯 Goal": "Making Cybersecurity Accessible Through AI"
-        }
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="600">
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 **System Initialize...**
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=1500&pause=500&color=00FF41&width=400&lines=class+CyberSecurityExpert%3A;++++def+__init__(self)%3A;++++++++self.name+%3D+%22Oussama+AHJLI%22;++++++++self.role+%3D+%22Security+Specialist%22;++++++++self.location+%3D+%22Morocco+🇲🇦%22;++++++++self.status+%3D+%22Available%22;++++Loading+expertise...;++++System+ready!+🚀" alt="Typing SVG" />
+
+</td>
+<td width="50%">
+
+### 🛡️ **Security Arsenal Loading...**
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300">
+
+<div align="center">
+
+**🔄 Initializing Security Modules...**
+
+<img src="https://img.shields.io/badge/Threat_Detection-█████████▓░-00FF41?style=flat-square&logo=shield&logoColor=white" />
+<img src="https://img.shields.io/badge/AI_Integration-████████▓░░-00FF41?style=flat-square&logo=brain&logoColor=white" />
+<img src="https://img.shields.io/badge/Malware_Analysis-██████▓░░░░-00FF41?style=flat-square&logo=bug&logoColor=white" />
+<img src="https://img.shields.io/badge/Network_Security-████████████-00FF41?style=flat-square&logo=network-wired&logoColor=white" />
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 💻 **Terminal Session Active**
+
+```bash
+┌──(oussama㉿security-lab)-[~/cybersec-projects]
+└─$ whoami && echo "Current Mission: Making AI-Powered Security Accessible"
+
+🔐 Cybersecurity & AI Specialist
+🇲🇦 Based in Morocco
+🎯 Current Mission: Making AI-Powered Security Accessible
+
+┌──(oussama㉿security-lab)-[~/expertise]
+└─$ cat skills.json
+{
+  "primary_focus": ["🛡️ Threat Detection", "🤖 AI Security Solutions"],
+  "specialties": {
+    "security": ["🔍 Malware Analysis", "🌐 Network Security", "🎣 Phishing Detection"],
+    "ai_ml": ["📊 Security Automation", "🧠 Behavioral Analysis", "⚡ Real-time Processing"],
+    "infrastructure": ["🏗️ DevSecOps", "☁️ Cloud Security", "🔐 Zero Trust Architecture"]
+  },
+  "current_projects": "6 Active Security Solutions",
+  "threat_level": "🟢 All Systems Secure"
+}
+
+┌──(oussama㉿security-lab)-[~/current-focus]
+└─$ python3 current_mission.py --status
+🚀 ACTIVE MISSIONS:
+  ├── 🔬 Research: AI/ML Advanced Threat Detection
+  ├── 🤖 Building: Automated Security Response Systems  
+  ├── 📖 Learning: Zero Trust Architecture Implementation
+  └── 🎯 Goal: Democratizing Cybersecurity with AI
+
+💡 Status: Ready for new challenges and collaborations!
 ```
 
-<br clear="right"/>
+</div>
+
+<div align="center">
+
+### ⚡ **Real-Time Security Status**
+
+<img src="https://img.shields.io/badge/🛡️_Firewall-ACTIVE-00FF41?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🤖_AI_Models-DEPLOYED-00FF41?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🔍_Threat_Hunting-ONLINE-00FF41?style=for-the-badge" />
+<img src="https://img.shields.io/badge/📊_SIEM-MONITORING-00FF41?style=for-the-badge" />
+
+<img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="200" />
+
+**🌟 "I turn complex security challenges into elegant AI-driven solutions" 🌟**
+
+</div>
 
 ---
 
