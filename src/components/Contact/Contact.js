@@ -23,7 +23,7 @@ function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     // Basic validation
@@ -43,26 +43,56 @@ function Contact() {
       return;
     }
 
-    // Create mailto link
-    const subject = formData.subject || "Contact from Portfolio";
-    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-    const mailtoLink = `mailto:ahjli.contact@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    
-    // Open email client
-    window.location.href = mailtoLink;
+    try {
+      // Show loading state
+      setAlertType("info");
+      setAlertMessage("Sending message...");
+      setShowAlert(true);
 
-    // Show success message
-    setAlertType("success");
-    setAlertMessage("Email client opened! Your message is ready to send.");
-    setShowAlert(true);
+      // Send to backend
+      const response = await fetch('http://localhost:5000/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
 
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: ""
-    });
+      const data = await response.json();
+
+      if (data.success) {
+        // Show success message
+        setAlertType("success");
+        setAlertMessage("✅ Message sent successfully! I'll get back to you soon.");
+        setShowAlert(true);
+
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: ""
+        });
+      } else {
+        throw new Error(data.message || 'Failed to send message');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      
+      // Fallback to mailto if backend is not available
+      setAlertType("warning");
+      setAlertMessage("Backend unavailable. Opening email client as fallback...");
+      setShowAlert(true);
+      
+      // Create mailto link as fallback
+      const subject = formData.subject || "Contact from Portfolio";
+      const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
+      const mailtoLink = `mailto:ahjli.contact@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      
+      setTimeout(() => {
+        window.location.href = mailtoLink;
+      }, 1000);
+    }
 
     // Hide alert after 5 seconds
     setTimeout(() => {
