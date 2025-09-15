@@ -49,8 +49,12 @@ function Contact() {
       setAlertMessage("Sending message...");
       setShowAlert(true);
 
-      // Send to backend
-      const response = await fetch('http://localhost:5000/api/contact', {
+      // Send to backend (works for both local and production)
+      const API_URL = process.env.NODE_ENV === 'production' 
+        ? '/api/contact' 
+        : 'http://localhost:5000/api/contact';
+      
+      const response = await fetch(API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
