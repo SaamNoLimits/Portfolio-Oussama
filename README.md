@@ -8,8 +8,42 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 </h1>
 
+## 📱💻 Portfolio Preview
+
 <div align="center">
-  <img alt="Portfolio Demo" src="./home.png" width="800px" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);" />
+  <table>
+    <tr>
+      <td align="center">
+        <h3>🖥️ Desktop Version</h3>
+        <img alt="Desktop Portfolio Demo" src="./home.png" width="600px" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <h3>📱 Responsive Design Features</h3>
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/Desktop-✅_Optimized-4ade80?style=for-the-badge&logo=desktop" alt="Desktop">
+        <br><em>Full HD & 4K Ready</em>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/Tablet-✅_Responsive-4ade80?style=for-the-badge&logo=tablet" alt="Tablet">
+        <br><em>iPad & Android Tablets</em>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/Mobile-✅_Adaptive-4ade80?style=for-the-badge&logo=mobile" alt="Mobile">
+        <br><em>iOS & Android Phones</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <p><em>✨ Fully responsive design that adapts beautifully to all screen sizes ✨</em></p>
+  <p><strong>💡 Tip:</strong> <em>Add a mobile screenshot as `mobile.png` in the root directory to showcase mobile version!</em></p>
 </div>
 
 <br/>
