@@ -9,7 +9,7 @@
 </h1>
 
 <div align="center">
-  <img alt="Portfolio Demo" src="./Images/readme-img1.png" width="800px" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);" />
+  <img alt="Portfolio Demo" src="./home.png" width="800px" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);" />
 </div>
 
 <br/>
